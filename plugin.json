@@ -1,0 +1,13 @@
+{
+    "id": "blog",
+    "name": "Blog",
+    "description": "A blog plugin to publish articles with AI.",
+    "version": "1.0.0",
+    "url": "",
+    "authors": ["Evan Pole"],
+    "azuriom_api": "1.0.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\Blog\\Providers\\BlogServiceProvider",
+        "\\Azuriom\\Plugin\\Blog\\Providers\\RouteServiceProvider"
+    ]
+}

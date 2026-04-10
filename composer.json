@@ -1,0 +1,11 @@
+{
+    "name": "azuriom/blog",
+    "type": "azuriom-plugin",
+    "description": "A blog plugin for Azuriom.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\Plugin\\Blog\\": "src/"
+        }
+    }
+}
